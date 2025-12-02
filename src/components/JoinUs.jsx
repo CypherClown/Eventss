@@ -5,8 +5,8 @@ function JoinUs() {
   return (
     <div>
       <div className="flex flex-row max-md:flex-col mx-auto max-w-[1322px] w-full pt-8 pb-8 md:pt-[137px] md:pb-[73px] px-4 sm:px-6 md:px-8 gap-8 md:gap-[104px]">
-        <div className="box w-1/2">
-            <img src="./assets/joinus.png" alt="" className='w-full h-full object-cover rounded-lg md:rounded-none' />
+        <div className=" w-1/2">
+            <img src="./assets/joinus.png" alt="" className='w-full h-full' />
         </div>
         <div className="box w-1/2">
         <h1 className='text-[28px] sm:text-[36px] md:text-[48px] font-[Poppins] font-[700] max-w-[338px]'>Join Us</h1>
