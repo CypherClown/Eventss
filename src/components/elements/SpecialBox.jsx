@@ -3,7 +3,7 @@ import React from 'react'
 function SpecialBox({ title, description, icon }) {
   return (
     <div> 
-      <div className="group max-w-[260px] text-center flex flex-col relative rounded-[5px] hover:bg-[#2C49FE] px-[20px] pt-[45px] pb-[17px] transition-all duration-300 border-1 border-[#2C49FE] items-center justify-center max-h-[235px] w-full h-full">
+      <div className="group max-w-[260px] text-center flex flex-col relative rounded-[5px] hover:bg-[#2C49FE] px-[20px] pt-[45px] pb-[17px] transition-all duration-300 border-[1px] border-[#2C49FE] items-center justify-center max-h-[235px] w-full h-full">
         <div className="svg absolute top-[-20%] right-auto bg-white p-[22px] border-[2px] border-[#2C49FE] rounded-[50px]">
           {icon}
         </div>
