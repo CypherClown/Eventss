@@ -27,7 +27,7 @@ function Explore() {
           <p className='text-[14px] mt-3 mb-4 sm:text-[15px] md:text-[16px] font-[Poppins] font-[400] text-[#000000B2] max-w-[543px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu.</p>
           <p className='text-[14px] sm:text-[15px] md:text-[16px] font-[Poppins] font-[700]'>LEARN MORE</p>
         </div>
-        <div className="box grid grid-cols-1 md:grid-cols-2 gap-[31px] w-full">
+        <div className="box flex flex-row md:flex-cols gap-[31px] justify-end w-full">
           {events.map((event) => (
             <ExploreCards
               key={event.id}
