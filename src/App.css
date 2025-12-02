@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+}
