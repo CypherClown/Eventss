@@ -6,7 +6,7 @@ function JoinUs() {
     <div>
       <div className="flex flex-row max-md:flex-col mx-auto max-w-[1322px] w-full pt-8 pb-8 md:pt-[137px] md:pb-[73px] px-4 sm:px-6 md:px-8 gap-8 md:gap-[104px]">
         <div className=" max:md:w-1/2">
-            <img src="./assets/joinus.png" alt="" className='w-full h-full object-cover rounded-lg md:rounded-none' />
+            <img src="./assets/joinus.png" alt="" className='w-full max-h-[533.7595825195312px] max-w-[536.302001953125px] h-full ' />
         </div>
         <div className="box max-md:w-full md:w-1/2">
         <div className="relative max-w-[180px]">
