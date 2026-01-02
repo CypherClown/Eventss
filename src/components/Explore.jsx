@@ -1,34 +1,19 @@
 import React from 'react'
 import ExploreCards from './elements/ExploreCards.jsx'
+import Container from '../common/components/Container.jsx'
+import { eventsData, textContent } from '../data.jsx'
 
 function Explore() {
-  const events = [
-    {
-      id: 1,
-      image: './assets/explore-1.png',
-      date: '09/23/2021',
-      title: 'Lorem ipsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in '
-    },
-    {
-      id: 2,
-      image: './assets/explore-2.png',
-      date: '09/23/2021',
-      title: 'Lorem ipsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in '
-    }
-  ]
-
   return (
     <div>
-      <div className="flex flex-row max-md:flex-col mx-auto max-w-[1322px] w-full pt-8 pb-8 md:pt-[137px] md:pb-[73px] px-4 sm:px-6 md:px-8 gap-8 md:gap-[104px]">
+      <Container className="flex flex-row max-md:flex-col gap-8 md:gap-[104px]">
         <div className="box">
-          <p className='text-[28px] sm:text-[36px] md:text-[48px] font-[Poppins] font-[700] max-w-[338px]'>Explore our latest events</p>
-          <p className='text-[14px] mt-3 mb-4 sm:text-[15px] md:text-[16px] font-[Poppins] font-[400] text-[#000000B2] max-w-[543px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu.</p>
-          <p className='text-[14px] sm:text-[15px] md:text-[16px] font-[Poppins] font-[700]'>LEARN MORE</p>
+          <p className='text-[28px] sm:text-[36px] md:text-[48px] font-[Poppins] font-[700] max-w-[338px]'>{textContent.explore.heading}</p>
+          <p className='text-[14px] mt-3 mb-4 sm:text-[15px] md:text-[16px] font-[Poppins] font-[400] text-[#000000B2] max-w-[543px]'>{textContent.explore.description}</p>
+          <p className='text-[14px] sm:text-[15px] md:text-[16px] font-[Poppins] font-[700]'>{textContent.explore.learnMore}</p>
         </div>
         <div className="box flex flex-col md:flex-row gap-[31px] justify-end w-full">
-          {events.map((event) => (
+          {eventsData.map((event) => (
             <ExploreCards
               key={event.id}
               image={event.image}
@@ -38,7 +23,7 @@ function Explore() {
             />
           ))}
         </div>
-      </div>
+      </Container>
     </div>
   )
 }

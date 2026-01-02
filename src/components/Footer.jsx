@@ -45,7 +45,7 @@ function Footer() {
                                 <a href="https://twitter.com" target="_blank">
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_102160_326)">
+                                        <g clipPath="url(#clip0_102160_326)">
                                             <path
                                                 d="M11.8002 -0.0238342C5.61148 -0.0238342 0.575684 5.01057 0.575684 11.2C0.575684 17.3894 5.61148 22.4238 11.8002 22.4238C17.9889 22.4238 23.0247 17.3894 23.0247 11.2C23.0247 5.01057 17.9889 -0.0238342 11.8002 -0.0238342ZM11.8002 21.6762C6.02378 21.6762 1.32468 16.9764 1.32468 11.2C1.32468 5.42357 6.02378 0.723766 11.8002 0.723766C17.5766 0.723766 22.2757 5.42357 22.2757 11.2C22.2757 16.9764 17.5766 21.6762 11.8002 21.6762Z"
                                                 fill="white" />
@@ -83,7 +83,7 @@ function Footer() {
 
                     <ul className="w-full sm:w-auto">
                         <li className="font-bold text-white text-sm md:text-base mb-2 md:mb-3">GALLERY</li>
-                        <div className="gallery-grid grid grid-cols-2 sm:grid-cols-3 gap-[8px] md:gap-[13px] max-w-[300px] w-full">
+                        <div className="footer-gallery-grid grid grid-cols-2 sm:grid-cols-3 gap-[8px] md:gap-[13px] max-w-[300px] w-full">
                             <img src="./assets/bg-1.jpg" alt="" className="w-full h-[50px] md:h-[62px] object-cover rounded" />
                             <img src="./assets/bg-2.jpg" alt="" className="w-full h-[50px] md:h-[62px] object-cover rounded" />
                             <img src="./assets/bg-3.jpg" alt="" className="w-full h-[50px] md:h-[62px] object-cover rounded" />
