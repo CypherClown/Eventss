@@ -200,7 +200,8 @@ export const textContent = {
   profile: {
     breadcrumb: {
       home: 'Home',
-      username: 'Username'
+      username: 'Username',
+      feed: 'Feed'
     },
     name: 'Jhone Doe',
     description: 'Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.',

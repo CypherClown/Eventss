@@ -15,7 +15,7 @@ function Profile() {
           <div className="breadcrumb">
             <Link to="/" className='text-[#000000B2]'>{textContent.profile.breadcrumb.home}</Link>
             <span className='text-[#000000B2]'>{' > '}</span>
-            <Link to="/username" className='text-[#000000B2]'>{textContent.profile.breadcrumb.feed}</Link>
+            <span className='text-[#000000B2]'>{textContent.profile.breadcrumb.feed}</span>
           </div>
           <div className="profile-name pt-4 flex flex-col lg:flex-row sm:items-center gap-4 sm:gap-8">
             <h1 className='text-[28px] sm:text-[36px] md:text-[48px] font-[Poppins] font-[600] text-center sm:text-left whitespace-nowrap'>{textContent.profile.name}</h1>

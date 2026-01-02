@@ -27,4 +27,3 @@ export const routes: RouteConfig[] = [
     element: <Username />
   }
 ]
-
